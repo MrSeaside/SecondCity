@@ -50,7 +50,7 @@
 	. = ..()
 
 	//give them sunglasses to hide their freakish eyes
-	var/obj/item/clothing/glasses/vampire/sun/new_glasses = new(H.loc)
+	var/obj/item/clothing/glasses/darkpack/sun/new_glasses = new(H.loc)
 	H.equip_to_appropriate_slot(new_glasses, TRUE)
 
 

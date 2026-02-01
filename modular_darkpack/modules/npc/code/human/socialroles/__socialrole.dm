@@ -248,16 +248,16 @@
 	if (check_holidays(FESTIVE_SEASON))
 		if (!length(socialrole.suits))
 			socialrole.suits = list(
-				/obj/item/clothing/suit/vampire/coat/winter,
-				/obj/item/clothing/suit/vampire/coat/winter/alt
+				/obj/item/clothing/suit/darkpack/coat/winter,
+				/obj/item/clothing/suit/darkpack/coat/winter/alt
 			)
 		if (!length(socialrole.neck) && prob(50))
 			socialrole.neck = list(
-				/obj/item/clothing/neck/vampire/scarf/red,
-				/obj/item/clothing/neck/vampire/scarf,
-				/obj/item/clothing/neck/vampire/scarf/blue,
-				/obj/item/clothing/neck/vampire/scarf/green,
-				/obj/item/clothing/neck/vampire/scarf/white
+				/obj/item/clothing/neck/darkpack/scarf/red,
+				/obj/item/clothing/neck/darkpack/scarf,
+				/obj/item/clothing/neck/darkpack/scarf/blue,
+				/obj/item/clothing/neck/darkpack/scarf/green,
+				/obj/item/clothing/neck/darkpack/scarf/white
 			)
 
 	if(!dont_random)

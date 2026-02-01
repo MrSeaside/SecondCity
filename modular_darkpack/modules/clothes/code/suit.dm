@@ -253,7 +253,7 @@
 	icon_state = "fbi"
 	armor_type = /datum/armor/vampire_jacket
 
-/obj/item/clothing/suit/vampire/jacket/punk
+/obj/item/clothing/suit/darkpack/jacket/punk
 	icon_state = "punk"
 	armor_type = /datum/armor/punk_jacket
 
@@ -512,220 +512,220 @@
 	desc = "A traditional robe worn by imams of the Islamic faith."
 	icon_state = "imam"
 
-/obj/item/clothing/suit/vampire/noddist
+/obj/item/clothing/suit/darkpack/noddist
 	name = "noddist robe"
 	desc = "Shine black the sun! Shine blood the moon! Gehenna is coming soon."
 	icon_state = "noddist"
 
-/obj/item/clothing/suit/vampire/orthodox
+/obj/item/clothing/suit/darkpack/orthodox
 	name = "orthodox robe"
 	desc = "A traditional robe worn by priests of the Orthodox faith."
 	icon_state = "vestments"
 
-/obj/item/clothing/suit/vampire/dutch
+/obj/item/clothing/suit/darkpack/dutch
 	name = "dutch's jacket"
 	desc = "For those long nights on the beach in Tahiti."
 	icon_state = "DutchJacket"
 
 //Pentex Overwear
-/obj/item/clothing/suit/vampire/pentex_labcoat
+/obj/item/clothing/suit/darkpack/pentex_labcoat
 	name = "\improper " + MAIN_EVIL_COMPANY + " labcoat"
 	desc = "A crisp white labcoat. This one has the " + MAIN_EVIL_COMPANY + " International logo stiched onto the breast!"
 	icon_state = "pentex_closedlabcoat"
 	armor_type = /datum/armor/labcoat
 
-/obj/item/clothing/suit/vampire/pentex_labcoat_alt
+/obj/item/clothing/suit/darkpack/pentex_labcoat_alt
 	name = "\improper " + MAIN_EVIL_COMPANY + " labcoat"
 	desc = "A crisp white labcoat. This one has a green trim and the " + MAIN_EVIL_COMPANY + " International logo stiched onto the breast!"
 	icon_state = "pentex_labcoat_alt"
 	armor_type = /datum/armor/labcoat
 
-/obj/item/clothing/suit/vampire/greatcoat
+/obj/item/clothing/suit/darkpack/greatcoat
 	name = "greatcoat"
 	desc = "A heavy greatcoat."
 	icon_state = "gentlecoat"
 	inhand_icon_state = "black_coat"
 
-/obj/item/clothing/suit/vampire/det_trench
+/obj/item/clothing/suit/darkpack/det_trench
 	name = "classic trenchcoat"
 	desc = "A rugged brown trenchcoat for the less-than-modern investigator."
 	icon_state = "detective"
 	inhand_icon_state = "detective"
 
-/obj/item/clothing/suit/vampire/det_trench_grey
+/obj/item/clothing/suit/darkpack/det_trench_grey
 	name = "grey trenchcoat"
 	desc = "A long grey trenchcoat for the less-than-modern investigator."
 	icon_state = "detective2"
 	inhand_icon_state = "detective2"
 
-/obj/item/clothing/suit/vampire/shawl_white
+/obj/item/clothing/suit/darkpack/shawl_white
 	name = "white shawl"
 	desc = "A long silk shawl, to be draped over the arms."
 	icon_state = "shawl_white"
 
-/obj/item/clothing/suit/vampire/charcoalsuit
+/obj/item/clothing/suit/darkpack/charcoalsuit
 	name = "charcoal suit jacket"
 	desc = "A charcoal suit jacket."
 	icon_state = "suitjacket_charcoal"
 	inhand_icon_state = "suit_black"
 
-/obj/item/clothing/suit/vampire/navysuit
+/obj/item/clothing/suit/darkpack/navysuit
 	name = "navy suit jacket"
 	desc = "A navy suit jacket."
 	icon_state = "suitjacket_navy"
 	inhand_icon_state = "suit_navy"
 
-/obj/item/clothing/suit/vampire/burgundysuit
+/obj/item/clothing/suit/darkpack/burgundysuit
 	name = "burgundy suit jacket"
 	desc = "A burgundy suit jacket."
 	icon_state = "suitjacket_burgundy"
 	inhand_icon_state = "suit_red"
 
-/obj/item/clothing/suit/vampire/checkeredsuit
+/obj/item/clothing/suit/darkpack/checkeredsuit
 	name = "checkered suit jacket"
 	desc = "A checkered suit jacket."
 	icon_state = "suitjacket_checkered"
 	inhand_icon_state = "suit_grey"
 
-/obj/item/clothing/suit/vampire/tansuit
+/obj/item/clothing/suit/darkpack/tansuit
 	name = "tan suit jacket"
 	desc = "A tan suit jacket."
 	icon_state = "suitjacket_tan"
 	inhand_icon_state = "suit_orange"
 
 
-/obj/item/clothing/suit/vampire/toggle/suitjacket
+/obj/item/clothing/suit/darkpack/toggle/suitjacket
 	can_adjust = TRUE
 
-/obj/item/clothing/suit/vampire/toggle/suitjacket/blue
+/obj/item/clothing/suit/darkpack/toggle/suitjacket/blue
 	name = "blue suit jacket"
 	desc = "A blue suit jacket."
 	icon_state = "suitjacket_blue"
 	inhand_icon_state = "suit_blue"
 
-/obj/item/clothing/suit/vampire/toggle/suitjacket/purple
+/obj/item/clothing/suit/darkpack/toggle/suitjacket/purple
 	name = "purple suit jacket"
 	desc = "A purple suit jacket. Quite the fashion statement."
 	icon_state = "suitjacket_purp"
 	inhand_icon_state = "suit_purple"
 
-/obj/item/clothing/suit/vampire/toggle/suitjacket/black
+/obj/item/clothing/suit/darkpack/toggle/suitjacket/black
 	name = "black suit jacket"
 	desc = "A black suit jacket."
 	icon_state = "suitjacket_black"
 	inhand_icon_state = "suit_black"
 
-/obj/item/clothing/suit/vampire/toggle/leather
+/obj/item/clothing/suit/darkpack/toggle/leather
 	name = "black leather jacket"
 	desc = "True clothing for any punk."
 	icon_state = "leather_jacket"
 
-/obj/item/clothing/suit/vampire/toggle/leather_brown
+/obj/item/clothing/suit/darkpack/toggle/leather_brown
 	name = "brown leather jacket"
 	desc = "True clothing for any biker."
 	icon_state = "brown_jacket"
 
-/obj/item/clothing/suit/vampire/toggle/leather_sleeveless
+/obj/item/clothing/suit/darkpack/toggle/leather_sleeveless
 	name = "black leather vest"
 	desc = "True clothing for any punk."
 	icon_state = "leather_jacket_sleeveless"
 
-/obj/item/clothing/suit/vampire/toggle/leather_brown_sleeveless
+/obj/item/clothing/suit/darkpack/toggle/leather_brown_sleeveless
 	name = "brown leather vest"
 	desc = "True clothing for any biker."
 	icon_state = "brown_jacket_sleeveless"
 
-/obj/item/clothing/suit/vampire/toggle/hoodie_grey
+/obj/item/clothing/suit/darkpack/toggle/hoodie_grey
 	name = "grey zipper hoodie"
 	desc = "A simple grey hoodie."
 	icon_state = "grey_hoodie"
 
-/obj/item/clothing/suit/vampire/toggle/hoodie_black
+/obj/item/clothing/suit/darkpack/toggle/hoodie_black
 	name = "black zipper hoodie"
 	desc = "A simple black hoodie."
 	icon_state = "black_hoodie"
 
-/obj/item/clothing/suit/vampire/toggle/hoodie_red
+/obj/item/clothing/suit/darkpack/toggle/hoodie_red
 	name = "red zipper hoodie"
 	desc = "A simple red hoodie."
 	icon_state = "red_hoodie"
 
-/obj/item/clothing/suit/vampire/toggle/hoodie_blue
+/obj/item/clothing/suit/darkpack/toggle/hoodie_blue
 	name = "blue zipper hoodie"
 	desc = "A simple blue hoodie."
 	icon_state = "blue_hoodie"
 
-/obj/item/clothing/suit/vampire/toggle/hoodie_orange
+/obj/item/clothing/suit/darkpack/toggle/hoodie_orange
 	name = "orange zipper hoodie"
 	desc = "A simple orange hoodie."
 	icon_state = "orange_hoodie"
 
-/obj/item/clothing/suit/vampire/toggle/hoodie_pink
+/obj/item/clothing/suit/darkpack/toggle/hoodie_pink
 	name = "pink zipper hoodie"
 	desc = "A simple pink hoodie."
 	icon_state = "pink_hoodie"
 
-/obj/item/clothing/suit/vampire/toggle/trackjacket
+/obj/item/clothing/suit/darkpack/toggle/trackjacket
 	name = "black track jacket"
 	desc = "A light, breathable athletic jacket."
 	icon_state = "trackjacket"
 
-/obj/item/clothing/suit/vampire/toggle/trackjacketblue
+/obj/item/clothing/suit/darkpack/toggle/trackjacketblue
 	name = "blue track jacket"
 	desc = "A light, breathable athletic jacket."
 	icon_state = "trackjacketblue"
 
-/obj/item/clothing/suit/vampire/toggle/trackjacketgreen
+/obj/item/clothing/suit/darkpack/toggle/trackjacketgreen
 	name = "green track jacket"
 	desc = "A light, breathable athletic jacket."
 	icon_state = "trackjacketgreen"
 
-/obj/item/clothing/suit/vampire/toggle/trackjacketred
+/obj/item/clothing/suit/darkpack/toggle/trackjacketred
 	name = "red track jacket"
 	desc = "A light, breathable athletic jacket."
 	icon_state = "trackjacketred"
 
-/obj/item/clothing/suit/vampire/toggle/trackjacketwhite
+/obj/item/clothing/suit/darkpack/toggle/trackjacketwhite
 	name = "white track jacket"
 	desc = "A light, breathable athletic jacket."
 	icon_state = "trackjacketwhite"
 
-/obj/item/clothing/suit/vampire/toggle/yellow_dep_jacket
+/obj/item/clothing/suit/darkpack/toggle/yellow_dep_jacket
 	name = "yellow fur-lined jacket"
 	desc = "A warm wool-lined jacket."
 	icon_state = "engi_dep_jacket"
 
-/obj/item/clothing/suit/vampire/toggle/red_dep_jacket
+/obj/item/clothing/suit/darkpack/toggle/red_dep_jacket
 	name = "red fur-lined jacket"
 	desc = "A warm wool-lined jacket."
 	icon_state = "sec_dep_jacket"
 
-/obj/item/clothing/suit/vampire/toggle/white_dep_jacket
+/obj/item/clothing/suit/darkpack/toggle/white_dep_jacket
 	name = "white fur-lined jacket"
 	desc = "A warm wool-lined jacket."
 	icon_state = "med_dep_jacket"
 
-/obj/item/clothing/suit/vampire/toggle/brown_dep_jacket
+/obj/item/clothing/suit/darkpack/toggle/brown_dep_jacket
 	name = "brown fur-lined jacket"
 	desc = "A warm wool-lined jacket."
 	icon_state = "supply_dep_jacket"
 
-/obj/item/clothing/suit/vampire/toggle/grey_dep_jacket
+/obj/item/clothing/suit/darkpack/toggle/grey_dep_jacket
 	name = "grey fur-lined jacket"
 	desc = "A warm wool-lined jacket."
 	icon_state = "grey_dep_jacket"
 
-/obj/item/clothing/suit/vampire/toggle/blue_dep_jacket
+/obj/item/clothing/suit/darkpack/toggle/blue_dep_jacket
 	name = "blue fur-lined jacket"
 	desc = "A warm wool-lined jacket."
 	icon_state = "blue_dep_jacket"
 
-/obj/item/clothing/suit/vampire/toggle/bomber
+/obj/item/clothing/suit/darkpack/toggle/bomber
 	name = "bomber jacket"
 	desc = "A classic leather and wool jacket popular in WW2."
 	icon_state = "bomber"
 
-/obj/item/clothing/suit/vampire/toggle/retro_bomber
+/obj/item/clothing/suit/darkpack/toggle/retro_bomber
 	name = "asymmetical aviator jacket"
 	desc = "A classic leather and wool jacket in the style of early aviators."
 	icon_state = "retro_bomber"
@@ -733,68 +733,68 @@
 
 //FLANNELS
 //these use a different system from other toggles bc they have three different things you can toggle
-/obj/item/clothing/suit/vampire/flannel
+/obj/item/clothing/suit/darkpack/flannel
 	name = "grey flannel shirt"
 	desc = "A comfy, grey flannel shirt. Unleash your inner hipster."
 	icon_state = "flannel"
 	inhand_icon_state = "black_coat"
 	can_adjust = TRUE
 
-/obj/item/clothing/suit/vampire/flannel/red
+/obj/item/clothing/suit/darkpack/flannel/red
 	name = "red flannel shirt"
 	desc = "A comfy, red flannel shirt.  Unleash your inner hipster."
 	icon_state = "flannel_red"
 
-/obj/item/clothing/suit/vampire/flannel/aqua
+/obj/item/clothing/suit/darkpack/flannel/aqua
 	name = "aqua flannel shirt"
 	desc = "A comfy, aqua flannel shirt.  Unleash your inner hipster."
 	icon_state = "flannel_aqua"
 
-/obj/item/clothing/suit/vampire/flannel/brown
+/obj/item/clothing/suit/darkpack/flannel/brown
 	name = "brown flannel shirt"
 	desc = "A comfy, brown flannel shirt.  Unleash your inner hipster."
 	icon_state = "flannel_brown"
 
 //Letterman jackets
 
-/obj/item/clothing/suit/vampire/letterman_c
+/obj/item/clothing/suit/darkpack/letterman_c
 	name = "letterman jacket, UCLA"
 	desc = "A blue and gold UCLA varsity jacket."
 	icon_state = "letterman_c"
 
-/obj/item/clothing/suit/vampire/letterman_black
+/obj/item/clothing/suit/darkpack/letterman_black
 	name = "black letterman jacket"
 	desc = "A letterman jacket in a moody black and white."
 	icon_state = "varsity"
 
-/obj/item/clothing/suit/vampire/letterman_purple
+/obj/item/clothing/suit/darkpack/letterman_purple
 	name = "purple letterman jacket"
 	desc = "A letterman jacket in a deep purple."
 	icon_state = "varsity_purple"
 
 //Military jacket
 
-/obj/item/clothing/suit/vampire/military_white
+/obj/item/clothing/suit/darkpack/military_white
 	name = "white military jacket"
 	desc = "A white canvas jacket styled after classic American military garb. Feels sturdy, yet comfortable."
 	icon_state = "militaryjacket_white"
 
-/obj/item/clothing/suit/vampire/military_tan
+/obj/item/clothing/suit/darkpack/military_tan
 	name = "tan military jacket"
 	desc = "A tan canvas jacket styled after classic American military garb. Feels sturdy, yet comfortable."
 	icon_state = "militaryjacket_tan"
 
-/obj/item/clothing/suit/vampire/military_navy
+/obj/item/clothing/suit/darkpack/military_navy
 	name = "navy military jacket"
 	desc = "A navy canvas jacket styled after classic American military garb. Feels sturdy, yet comfortable."
 	icon_state = "militaryjacket_navy"
 
-/obj/item/clothing/suit/vampire/military_grey
+/obj/item/clothing/suit/darkpack/military_grey
 	name = "grey military jacket"
 	desc = "A grey canvas jacket styled after classic American military garb. Feels sturdy, yet comfortable."
 	icon_state = "militaryjacket_grey"
 
-/obj/item/clothing/suit/vampire/military_black
+/obj/item/clothing/suit/darkpack/military_black
 	name = "black military jacket"
 	desc = "A black canvas jacket styled after classic American military garb. Feels sturdy, yet comfortable."
 	icon_state = "militaryjacket_black"

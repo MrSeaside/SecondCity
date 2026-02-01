@@ -42,20 +42,20 @@
 		var/datum/splat/vampire/kindred/kindred = iskindred(H)
 		if(kindred)
 			if(H.jumpsuit_style == PREF_SUIT)
-				shoes = /obj/item/clothing/shoes/vampire
+				shoes = /obj/item/clothing/shoes/darkpack
 				if(kindred.clan.male_clothes)
 					uniform = kindred.clan.male_clothes
 			else
-				shoes = /obj/item/clothing/shoes/vampire/heels
+				shoes = /obj/item/clothing/shoes/darkpack/heels
 				if(kindred.clan.female_clothes)
 					uniform = kindred.clan.female_clothes
 		else
 			if(H.jumpsuit_style == PREF_SKIRT)
-				shoes = /obj/item/clothing/shoes/vampire
-				uniform = /obj/item/clothing/under/vampire/sport
+				shoes = /obj/item/clothing/shoes/darkpack
+				uniform = /obj/item/clothing/under/darkpack/sport
 			else
-				shoes = /obj/item/clothing/shoes/vampire/heels
-				uniform = /obj/item/clothing/under/vampire/red
+				shoes = /obj/item/clothing/shoes/darkpack/heels
+				uniform = /obj/item/clothing/under/darkpack/red
 
 /datum/outfit/job/vampire/post_equip(mob/living/carbon/human/user, visuals_only = FALSE)
 	. = ..()

@@ -38,6 +38,6 @@
 	var/obj/item/clothing/suit/hooded/robes/darkred/new_robe = new(H.loc)
 	H.equip_to_appropriate_slot(new_robe, FALSE)
 
-	var/obj/item/clothing/mask/vampire/venetian_mask/fancy/new_mask = new(H.loc)
+	var/obj/item/clothing/mask/darkpack/venetian_mask/fancy/new_mask = new(H.loc)
 	H.equip_to_appropriate_slot(new_mask, FALSE)
 
