@@ -40,3 +40,64 @@
 	name = "prayer beads"
 	desc = "These beads are used for prayer."
 	icon_state = "beads"
+
+/obj/item/clothing/neck/darkpack/tie/blueclip
+	name = "blue tie with clip"
+	desc = "A silk necktie with a gold clip."
+	icon_state = "bluecliptie"
+
+/obj/item/clothing/neck/darkpack/tie/bluelong
+	name = "long blue tie"
+	icon_state = "bluelongtie"
+
+/obj/item/clothing/neck/darkpack/tie/redclip
+	name = "red tie with clip"
+	desc = "A red necktie with a gold clip."
+	icon_state = "redcliptie"
+
+/obj/item/clothing/neck/darkpack/tie/redlong
+	name = "long red tie"
+	icon_state = "redlongtie"
+
+/obj/item/clothing/neck/darkpack/tie/navy
+	name = "navy tie"
+	icon_state = "navytie"
+
+/obj/item/clothing/neck/darkpack/tie/yellow
+	name = "yellow tie"
+	icon_state = "yellowtie"
+
+/obj/item/clothing/neck/darkpack/tie/white
+	name = "white tie"
+	icon_state = "whitetie"
+
+/obj/item/clothing/neck/darkpack/tie/darkgreen
+	name = "dark green tie"
+	icon_state = "dgreentie"
+
+
+/obj/item/clothing/neck/darkpack/choker
+	name = "black choker"
+	desc = "A plain black choker, popular among goths."
+	icon_state = "blackchoker"
+
+/obj/item/clothing/neck/darkpack/choker/silver
+	name = "metallic choker"
+	desc = "A silvery fabric choker. Scene chicks dig it."
+	icon_state = "steelchoker"
+
+/obj/item/clothing/neck/darkpack/choker/collar
+	name = "leather choker"
+	desc = "A leather choker with a steel ring pendant."
+	icon_state = "leathercollar"
+
+/obj/item/clothing/neck/darkpack/choker/collar/steel
+	name = "silver chain choker"
+	desc = "A chain choker in tarnish-resistant, hypoallergenic silver. Hardcore."
+	icon_state = "steelcollar"
+
+
+/obj/item/clothing/neck/darkpack/choker/collar/leatherg
+	name = "fancy choker"
+	desc = "A black choker with a gold ring pendant. A little classier than the alternatives."
+	icon_state = "leathercollar_g"
